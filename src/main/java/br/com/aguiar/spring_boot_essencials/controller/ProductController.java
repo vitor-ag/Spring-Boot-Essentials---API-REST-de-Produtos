@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import br.com.aguiar.spring_boot_essencials.database.model.ProductEntity;
 import br.com.aguiar.spring_boot_essencials.dto.ProductDto;
 import br.com.aguiar.spring_boot_essencials.exception.NotFoundException;
 import br.com.aguiar.spring_boot_essencials.service.ProductService;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import lombok.RequiredArgsConstructor;
 
 @RestController

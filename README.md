@@ -16,7 +16,7 @@
 
 ## 📌 Endpoints
 
-Base URL: `http://localhost:8080/v1/products`
+Base URL: `http://localhost:8080/swagger-ui/index.html`
 
 | Método   | Rota           | Descrição                      | Status de Sucesso |
 |----------|----------------|--------------------------------|:-----------------:|
